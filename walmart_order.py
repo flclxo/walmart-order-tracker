@@ -54,7 +54,7 @@ def imap_search(token):
     return ids
 
 # get raw ID lists
-confirm_ids = imap_search("thanks for your")
+confirm_ids = imap_search("thanks for your") #If future updates change the text to match walmart format
 cancel_ids  = imap_search("Canceled: delivery from order")
 
 def count_valid(ids):
@@ -80,7 +80,7 @@ mail.logout()
 total = confirmed + canceled
 
 embed = {
-    "title": "Built by FLCLXO",
+    "title": "Built by @FLCLXO",
     "description": (
         f"**Total Orders**: {total}\n"
         f"**Confirmed**: {confirmed}\n"
