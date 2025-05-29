@@ -80,7 +80,7 @@ mail.logout()
 total = confirmed + canceled
 
 embed = {
-    "title": "Built by M4SWIFT",
+    "title": "Built by FLCLXO",
     "description": (
         f"**Total Orders**: {total}\n"
         f"**Confirmed**: {confirmed}\n"
